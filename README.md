@@ -2,24 +2,25 @@
 
 ## Summary
 
-In this regex we will be going over how to properly look ahead and behind any 'T' in a sentence.
+Here we will be going over the regex used to verify emails `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,5})$/`. This type of expression allows for email adresses to be verified upon signing up etc. 
+
 
 ## Table of Contents
 
+- [Anchors](#anchors)
+- [Quantifiers](#quantifiers)
+- [OR Operator](#or-operator)
+- [Character Classes](#character-classes)
+- [Flags](#flags)
+- [Grouping and Capturing](#grouping-and-capturing)
+- [Bracket Expressions](#bracket-expressions)
+- [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 - [Gist](#gist)
 
-### Look-ahead and Look-behind
-
-LOOK AHEAD = ``` (?<=[tT]he). ```
-
-LOOK BEHIND = ``` (?=[tT]he). ```
-
-The cat sat down by my feet.
-It then found some cheese to eat.
 
 ## Gist
-https://gist.github.com/michaelreyes10/6ddf0ebc85b38f6697af137ba13d438d
+https://gist.github.com/michaelreyes10/ebe65e0ce6cdd9fcbe12c5b6f83a4dbd
 
 ## Author
 
